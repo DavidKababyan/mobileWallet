@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DC51C5B0-55D8-420A-969A-31CC940DD030</string>
+	<key>IDESourceControlProjectName</key>
+	<string>mobileWallet</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>024A36133AE1F930198B6362EECC8AAE7C70ABD5</key>
+		<string>https://github.com/DavidKababyan/mobileWallet.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>mobileWallet.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>024A36133AE1F930198B6362EECC8AAE7C70ABD5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DavidKababyan/mobileWallet.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>024A36133AE1F930198B6362EECC8AAE7C70ABD5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>024A36133AE1F930198B6362EECC8AAE7C70ABD5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mobileWallet</string>
+		</dict>
+	</array>
+</dict>
+</plist>

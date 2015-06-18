@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		63A3C4F81B332CE2004E7413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3C4F71B332CE2004E7413 /* AppDelegate.swift */; };
 		63A3C4FB1B332CE2004E7413 /* mobileWallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63A3C4F91B332CE2004E7413 /* mobileWallet.xcdatamodeld */; };
-		63A3C4FD1B332CE2004E7413 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3C4FC1B332CE2004E7413 /* ViewController.swift */; };
 		63A3C5001B332CE2004E7413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A3C4FE1B332CE2004E7413 /* Main.storyboard */; };
 		63A3C5021B332CE2004E7413 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A3C5011B332CE2004E7413 /* Images.xcassets */; };
 		63A3C5051B332CE2004E7413 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A3C5031B332CE2004E7413 /* LaunchScreen.xib */; };
 		63A3C5111B332CE2004E7413 /* mobileWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3C5101B332CE2004E7413 /* mobileWalletTests.swift */; };
+		63F87ABB1B332EBB0099F474 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F87ABA1B332EBB0099F474 /* Expense.swift */; };
+		63F87ABE1B3335CE0099F474 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F87ABD1B3335CE0099F474 /* MainViewController.swift */; };
+		63F87AC01B3337520099F474 /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F87ABF1B3337520099F474 /* AddExpenseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +33,15 @@
 		63A3C4F61B332CE2004E7413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63A3C4F71B332CE2004E7413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A3C4FA1B332CE2004E7413 /* mobileWallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mobileWallet.xcdatamodel; sourceTree = "<group>"; };
-		63A3C4FC1B332CE2004E7413 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63A3C4FF1B332CE2004E7413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63A3C5011B332CE2004E7413 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		63A3C5041B332CE2004E7413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		63A3C50A1B332CE2004E7413 /* mobileWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobileWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A3C50F1B332CE2004E7413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63A3C5101B332CE2004E7413 /* mobileWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileWalletTests.swift; sourceTree = "<group>"; };
+		63F87ABA1B332EBB0099F474 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Expense.swift; path = ../Expense.swift; sourceTree = "<group>"; };
+		63F87ABD1B3335CE0099F474 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		63F87ABF1B3337520099F474 /* AddExpenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +84,12 @@
 			isa = PBXGroup;
 			children = (
 				63A3C4F71B332CE2004E7413 /* AppDelegate.swift */,
-				63A3C4FC1B332CE2004E7413 /* ViewController.swift */,
 				63A3C4FE1B332CE2004E7413 /* Main.storyboard */,
+				63F87ABD1B3335CE0099F474 /* MainViewController.swift */,
+				63F87ABF1B3337520099F474 /* AddExpenseViewController.swift */,
 				63A3C5011B332CE2004E7413 /* Images.xcassets */,
 				63A3C5031B332CE2004E7413 /* LaunchScreen.xib */,
-				63A3C4F91B332CE2004E7413 /* mobileWallet.xcdatamodeld */,
+				63F87ABC1B332EF10099F474 /* Model */,
 				63A3C4F51B332CE2004E7413 /* Supporting Files */,
 			);
 			path = mobileWallet;
@@ -113,6 +118,15 @@
 				63A3C50F1B332CE2004E7413 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63F87ABC1B332EF10099F474 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63F87ABA1B332EBB0099F474 /* Expense.swift */,
+				63A3C4F91B332CE2004E7413 /* mobileWallet.xcdatamodeld */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A3C4FD1B332CE2004E7413 /* ViewController.swift in Sources */,
+				63F87ABB1B332EBB0099F474 /* Expense.swift in Sources */,
 				63A3C4FB1B332CE2004E7413 /* mobileWallet.xcdatamodeld in Sources */,
+				63F87AC01B3337520099F474 /* AddExpenseViewController.swift in Sources */,
 				63A3C4F81B332CE2004E7413 /* AppDelegate.swift in Sources */,
+				63F87ABE1B3335CE0099F474 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +431,7 @@
 				63A3C5161B332CE2004E7413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A3C5171B332CE2004E7413 /* Build configuration list for PBXNativeTarget "mobileWalletTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +440,7 @@
 				63A3C5191B332CE2004E7413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
