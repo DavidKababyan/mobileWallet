@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:mobileWallet.xcodeproj">
+      location = "self:/Users/David/Desktop/mobileWallet/WalletPlus.xcodeproj">
    </FileRef>
 </Workspace>

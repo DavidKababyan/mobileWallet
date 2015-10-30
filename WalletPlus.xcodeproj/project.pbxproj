@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6346425B1B34B0AE00B1B28A /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6346425A1B34B0AE00B1B28A /* ExpenseTableViewCell.swift */; };
+		63814A6E1B3558BC00614F29 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63814A6D1B3558BC00614F29 /* SettingsViewController.swift */; };
 		63A3C4F81B332CE2004E7413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3C4F71B332CE2004E7413 /* AppDelegate.swift */; };
 		63A3C4FB1B332CE2004E7413 /* mobileWallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63A3C4F91B332CE2004E7413 /* mobileWallet.xcdatamodeld */; };
 		63A3C5001B332CE2004E7413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A3C4FE1B332CE2004E7413 /* Main.storyboard */; };
@@ -29,14 +31,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		63A3C4F21B332CE2004E7413 /* mobileWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobileWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6346425A1B34B0AE00B1B28A /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		63814A6D1B3558BC00614F29 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		63A3C4F21B332CE2004E7413 /* WalletPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A3C4F61B332CE2004E7413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63A3C4F71B332CE2004E7413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A3C4FA1B332CE2004E7413 /* mobileWallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mobileWallet.xcdatamodel; sourceTree = "<group>"; };
 		63A3C4FF1B332CE2004E7413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63A3C5011B332CE2004E7413 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		63A3C5041B332CE2004E7413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		63A3C50A1B332CE2004E7413 /* mobileWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobileWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A3C50A1B332CE2004E7413 /* WalletPlus.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletPlus.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A3C50F1B332CE2004E7413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63A3C5101B332CE2004E7413 /* mobileWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileWalletTests.swift; sourceTree = "<group>"; };
 		63F87ABA1B332EBB0099F474 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Expense.swift; path = ../Expense.swift; sourceTree = "<group>"; };
@@ -65,7 +69,7 @@
 		63A3C4E91B332CE2004E7413 = {
 			isa = PBXGroup;
 			children = (
-				63A3C4F41B332CE2004E7413 /* mobileWallet */,
+				63A3C4F41B332CE2004E7413 /* WalletPlus */,
 				63A3C50D1B332CE2004E7413 /* mobileWalletTests */,
 				63A3C4F31B332CE2004E7413 /* Products */,
 			);
@@ -74,24 +78,24 @@
 		63A3C4F31B332CE2004E7413 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63A3C4F21B332CE2004E7413 /* mobileWallet.app */,
-				63A3C50A1B332CE2004E7413 /* mobileWalletTests.xctest */,
+				63A3C4F21B332CE2004E7413 /* WalletPlus.app */,
+				63A3C50A1B332CE2004E7413 /* WalletPlus.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		63A3C4F41B332CE2004E7413 /* mobileWallet */ = {
+		63A3C4F41B332CE2004E7413 /* WalletPlus */ = {
 			isa = PBXGroup;
 			children = (
 				63A3C4F71B332CE2004E7413 /* AppDelegate.swift */,
 				63A3C4FE1B332CE2004E7413 /* Main.storyboard */,
-				63F87ABD1B3335CE0099F474 /* MainViewController.swift */,
-				63F87ABF1B3337520099F474 /* AddExpenseViewController.swift */,
+				63F87AC11B333B7B0099F474 /* ViewControllers */,
 				63A3C5011B332CE2004E7413 /* Images.xcassets */,
 				63A3C5031B332CE2004E7413 /* LaunchScreen.xib */,
 				63F87ABC1B332EF10099F474 /* Model */,
 				63A3C4F51B332CE2004E7413 /* Supporting Files */,
 			);
+			name = WalletPlus;
 			path = mobileWallet;
 			sourceTree = "<group>";
 		};
@@ -129,12 +133,23 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		63F87AC11B333B7B0099F474 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				63F87ABD1B3335CE0099F474 /* MainViewController.swift */,
+				63F87ABF1B3337520099F474 /* AddExpenseViewController.swift */,
+				63814A6D1B3558BC00614F29 /* SettingsViewController.swift */,
+				6346425A1B34B0AE00B1B28A /* ExpenseTableViewCell.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63A3C4F11B332CE2004E7413 /* mobileWallet */ = {
+		63A3C4F11B332CE2004E7413 /* WalletPlus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63A3C5141B332CE2004E7413 /* Build configuration list for PBXNativeTarget "mobileWallet" */;
+			buildConfigurationList = 63A3C5141B332CE2004E7413 /* Build configuration list for PBXNativeTarget "WalletPlus" */;
 			buildPhases = (
 				63A3C4EE1B332CE2004E7413 /* Sources */,
 				63A3C4EF1B332CE2004E7413 /* Frameworks */,
@@ -144,14 +159,14 @@
 			);
 			dependencies = (
 			);
-			name = mobileWallet;
+			name = WalletPlus;
 			productName = mobileWallet;
-			productReference = 63A3C4F21B332CE2004E7413 /* mobileWallet.app */;
+			productReference = 63A3C4F21B332CE2004E7413 /* WalletPlus.app */;
 			productType = "com.apple.product-type.application";
 		};
-		63A3C5091B332CE2004E7413 /* mobileWalletTests */ = {
+		63A3C5091B332CE2004E7413 /* WalletPlusTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63A3C5171B332CE2004E7413 /* Build configuration list for PBXNativeTarget "mobileWalletTests" */;
+			buildConfigurationList = 63A3C5171B332CE2004E7413 /* Build configuration list for PBXNativeTarget "WalletPlusTests" */;
 			buildPhases = (
 				63A3C5061B332CE2004E7413 /* Sources */,
 				63A3C5071B332CE2004E7413 /* Frameworks */,
@@ -162,9 +177,9 @@
 			dependencies = (
 				63A3C50C1B332CE2004E7413 /* PBXTargetDependency */,
 			);
-			name = mobileWalletTests;
+			name = WalletPlusTests;
 			productName = mobileWalletTests;
-			productReference = 63A3C50A1B332CE2004E7413 /* mobileWalletTests.xctest */;
+			productReference = 63A3C50A1B332CE2004E7413 /* WalletPlus.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -173,19 +188,23 @@
 		63A3C4EA1B332CE2004E7413 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "David Kababyan";
 				TargetAttributes = {
 					63A3C4F11B332CE2004E7413 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 7P6AJEE272;
 					};
 					63A3C5091B332CE2004E7413 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 27X9HZC3Z3;
 						TestTargetID = 63A3C4F11B332CE2004E7413;
 					};
 				};
 			};
-			buildConfigurationList = 63A3C4ED1B332CE2004E7413 /* Build configuration list for PBXProject "mobileWallet" */;
+			buildConfigurationList = 63A3C4ED1B332CE2004E7413 /* Build configuration list for PBXProject "WalletPlus" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -198,8 +217,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63A3C4F11B332CE2004E7413 /* mobileWallet */,
-				63A3C5091B332CE2004E7413 /* mobileWalletTests */,
+				63A3C4F11B332CE2004E7413 /* WalletPlus */,
+				63A3C5091B332CE2004E7413 /* WalletPlusTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,7 +248,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6346425B1B34B0AE00B1B28A /* ExpenseTableViewCell.swift in Sources */,
 				63F87ABB1B332EBB0099F474 /* Expense.swift in Sources */,
+				63814A6E1B3558BC00614F29 /* SettingsViewController.swift in Sources */,
 				63A3C4FB1B332CE2004E7413 /* mobileWallet.xcdatamodeld in Sources */,
 				63F87AC01B3337520099F474 /* AddExpenseViewController.swift in Sources */,
 				63A3C4F81B332CE2004E7413 /* AppDelegate.swift in Sources */,
@@ -250,7 +271,7 @@
 /* Begin PBXTargetDependency section */
 		63A3C50C1B332CE2004E7413 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 63A3C4F11B332CE2004E7413 /* mobileWallet */;
+			target = 63A3C4F11B332CE2004E7413 /* WalletPlus */;
 			targetProxy = 63A3C50B1B332CE2004E7413 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -292,10 +313,13 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -337,7 +361,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -362,9 +388,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = mobileWallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.motionfilminc.walletPlus;
+				PRODUCT_NAME = WalletPlus;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -372,9 +402,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = mobileWallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.motionfilminc.walletPlus;
+				PRODUCT_NAME = WalletPlus;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -382,6 +416,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -392,8 +428,10 @@
 				);
 				INFOPLIST_FILE = mobileWalletTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobileWallet.app/mobileWallet";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.motionfilminc.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WalletPlus;
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalletPlus.app/WalletPlus";
 			};
 			name = Debug;
 		};
@@ -401,21 +439,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = mobileWalletTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobileWallet.app/mobileWallet";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.motionfilminc.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WalletPlus;
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalletPlus.app/WalletPlus";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63A3C4ED1B332CE2004E7413 /* Build configuration list for PBXProject "mobileWallet" */ = {
+		63A3C4ED1B332CE2004E7413 /* Build configuration list for PBXProject "WalletPlus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63A3C5121B332CE2004E7413 /* Debug */,
@@ -424,7 +466,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63A3C5141B332CE2004E7413 /* Build configuration list for PBXNativeTarget "mobileWallet" */ = {
+		63A3C5141B332CE2004E7413 /* Build configuration list for PBXNativeTarget "WalletPlus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63A3C5151B332CE2004E7413 /* Debug */,
@@ -433,7 +475,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63A3C5171B332CE2004E7413 /* Build configuration list for PBXNativeTarget "mobileWalletTests" */ = {
+		63A3C5171B332CE2004E7413 /* Build configuration list for PBXNativeTarget "WalletPlusTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63A3C5181B332CE2004E7413 /* Debug */,

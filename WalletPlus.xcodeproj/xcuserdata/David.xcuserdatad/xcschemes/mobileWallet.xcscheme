@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "63A3C4F11B332CE2004E7413"
-               BuildableName = "mobileWallet.app"
-               BlueprintName = "mobileWallet"
-               ReferencedContainer = "container:mobileWallet.xcodeproj">
+               BuildableName = "WalletPlus.app"
+               BlueprintName = "WalletPlus"
+               ReferencedContainer = "container:WalletPlus.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,27 +29,27 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "63A3C5091B332CE2004E7413"
-               BuildableName = "mobileWalletTests.xctest"
-               BlueprintName = "mobileWalletTests"
-               ReferencedContainer = "container:mobileWallet.xcodeproj">
+               BuildableName = "WalletPlus.xctest"
+               BlueprintName = "WalletPlusTests"
+               ReferencedContainer = "container:WalletPlus.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "63A3C5091B332CE2004E7413"
-               BuildableName = "mobileWalletTests.xctest"
-               BlueprintName = "mobileWalletTests"
-               ReferencedContainer = "container:mobileWallet.xcodeproj">
+               BuildableName = "WalletPlus.xctest"
+               BlueprintName = "WalletPlusTests"
+               ReferencedContainer = "container:WalletPlus.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,48 +57,51 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "63A3C4F11B332CE2004E7413"
-            BuildableName = "mobileWallet.app"
-            BlueprintName = "mobileWallet"
-            ReferencedContainer = "container:mobileWallet.xcodeproj">
+            BuildableName = "WalletPlus.app"
+            BlueprintName = "WalletPlus"
+            ReferencedContainer = "container:WalletPlus.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "63A3C4F11B332CE2004E7413"
-            BuildableName = "mobileWallet.app"
-            BlueprintName = "mobileWallet"
-            ReferencedContainer = "container:mobileWallet.xcodeproj">
+            BuildableName = "WalletPlus.app"
+            BlueprintName = "WalletPlus"
+            ReferencedContainer = "container:WalletPlus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "63A3C4F11B332CE2004E7413"
-            BuildableName = "mobileWallet.app"
-            BlueprintName = "mobileWallet"
-            ReferencedContainer = "container:mobileWallet.xcodeproj">
+            BuildableName = "WalletPlus.app"
+            BlueprintName = "WalletPlus"
+            ReferencedContainer = "container:WalletPlus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
